@@ -1148,14 +1148,15 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  /* background: #fff; */
+  background: rgba(20, 10, 63, 0.9);
   padding: 50px;
 }
 
 .contact .info i {
   
   font-size: 20px;
-  color: #34b7a7;
+  color: rgba(20, 10, 63, 0.9);
   float: left;
   width: 44px;
   height: 44px;
@@ -1172,14 +1173,15 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #222222;
+  color:#34b7a7;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #555555;
+  color: #fff;
+  /* color: #555555; */
 }
 
 .contact .info .email,
@@ -1191,12 +1193,14 @@ section {
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
   background: #34b7a7;
+  /* background: rgba(20, 10, 63, 0.9); */
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  /* background: #fff; */
+  background: rgba(20, 10, 63, 0.9);
 }
 
 .contact .php-email-form .form-group {
@@ -1261,7 +1265,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #34b7a7;
+  background-color:#1c1547;
   border: 0;
   padding: 10px 30px 12px 30px;
   color: #fff;
