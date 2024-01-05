@@ -764,6 +764,8 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 400;
@@ -1315,3 +1317,6 @@ section {
   left: 0;
   z-index: 1; /* Place the particle animation behind other content */
 }
+
+
+
