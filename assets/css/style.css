@@ -60,7 +60,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #EAE7DC;
 }
 
 #preloader:before {
@@ -68,7 +68,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #34b7a7;
+  border: 6px solid  #564e42;
   border-top-color: #dcf5f2;
   border-radius: 50%;
   width: 60px;
@@ -992,7 +992,7 @@ section {
   font-weight: 500;
   line-height: 1;
   text-transform: uppercase;
-  color: #f1efef;
+  color:  #675d4f;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 50px;
@@ -1000,8 +1000,8 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #fff;
-  background: #45ccf5;
+  color:  #675d4f;
+  background: rgba(201, 182, 155,0.6);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1212,15 +1212,17 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #34b7a7;
-  /* background: rgba(20, 10, 63, 0.9); */
-  color: #fff;
+  background:   #675d4f;
+  /* color: rgba(201, 182, 155,0.6); */
 }
 
 .contact .php-email-form {
   width: 100%;
   /* background: #fff; */
-  background: rgba(20, 10, 63, 0.9);
+  /* background: rgba(20, 10, 63, 0.9); */
+  background: rgba(201, 182, 155, 0.3);
+  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+ 
 }
 
 .contact .php-email-form .form-group {
@@ -1269,11 +1271,14 @@ section {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
+  background: rgba(201, 182, 155,0.3);
+  border-color: rgba(201, 182, 155,0.3);
+
 }
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #34b7a7;
+  border-color: rgba(201, 182, 155, 0.7);
 }
 
 .contact .php-email-form input {
@@ -1285,7 +1290,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background-color:#1c1547;
+  background-color:rgba(201, 182, 155, 0.6);
   border: 0;
   padding: 10px 30px 12px 30px;
   color: #fff;
@@ -1294,7 +1299,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #3dc8b7;
+  background:   #675d4f;
 }
 
 @keyframes animate-loading {
