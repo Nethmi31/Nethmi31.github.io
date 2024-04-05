@@ -369,7 +369,7 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #d8c3a5;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -384,7 +384,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #34b7a7;
+  color:#675d4f;
 }
 
 .navbar-mobile .getstarted,
@@ -400,7 +400,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: #d8c3a5;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
